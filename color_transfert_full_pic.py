@@ -2,7 +2,6 @@ import ot
 import numpy as np
 import matplotlib.pylab as pl
 from matplotlib.pyplot import imread
-from mpl_toolkits.mplot3d import Axes3D
 from mb_utils import get_stoc_gamma, incremental_bary_map
 
 
