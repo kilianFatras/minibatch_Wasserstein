@@ -1,7 +1,3 @@
-# minibatch_Wasserstein
-Code for "Learning with minibatch Wasserstein: asymptotic and gradient properties".
-
-
 # Minibatch Wasserstein distance
 
 Python3 implementation of the paper [Learning with minibatch Wasserstein: asymptotic and gradient properties
