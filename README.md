@@ -10,12 +10,18 @@ We also wrote a [medium blog post](https://medium.com/p/learning-with-minibatch-
 If you use this toolbox in your research or minibatch Wasserstein and find them useful, please cite minibatch Wasserstein using the following bibtex reference:
 
 ```
-@InProceedings{fatras2019learnwass,
-author    = {Fatras, Kilian and Zine, Younes and Flamary, Rémi and Gribonval, Rémi and Courty, Nicolas},
-title     = {Learning with minibatch Wasserstein: asymptotic and gradient properties},
-booktitle = {AISTATS},
-year      = {2020 (To appear)}
-}
+@InProceedings{pmlr-v108-fatras20a, 
+title = {Learning with minibatch Wasserstein : asymptotic and gradient properties}, 
+author = {Fatras, Kilian and Zine, Younes and Flamary, R\'emi and Gribonval, Remi and Courty, Nicolas}, 
+booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics}, 
+pages = {2131--2141}, year = {2020}, editor = {Silvia Chiappa and Roberto Calandra}, 
+volume = {108}, 
+series = {Proceedings of Machine Learning Research}, 
+month = {26--28 Aug}, 
+publisher = {PMLR}, 
+pdf = {http://proceedings.mlr.press/v108/fatras20a/fatras20a.pdf}, 
+url = { http://proceedings.mlr.press/v108/fatras20a.html }, 
+abstract = {Optimal transport distances are powerful tools to compare probability distributions and have found many applications in machine learning. Yet their algorithmic complexity prevents their direct use on large scale datasets. To overcome this challenge, practitioners compute these distances on minibatches i.e., they average the outcome of several smaller optimal transport problems. We propose in this paper an analysis of this practice, which effects are not well understood so far. We notably argue that it is equivalent to an implicit regularization of the original problem, with appealing properties such as unbiased estimators, gradients and a concentration bound around the expectation, but also with defects such as loss of distance property. Along with this theoretical analysis, we also conduct empirical experiments on gradient flows, GANs or color transfer that highlight the practical interest of this strategy.} }
 ```
 
 ### Prerequisites
